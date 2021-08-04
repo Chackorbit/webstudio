@@ -5,6 +5,12 @@
   --ptimary-white-color: #fff;
 }
 
+h2,
+h3 {
+  font-family: Roboto;
+  font-weight: bold;
+}
+
 body {
   background-color: #fff;
 }
@@ -14,6 +20,15 @@ body {
 }
 
 /* site nav */
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+}
+
 .logo:hover,
 .logo:focus {
   color: var(--brand-color);
@@ -21,6 +36,11 @@ body {
 
 .site-nav a {
   color: var(--h-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .site-nav a:hover,
@@ -30,6 +50,11 @@ body {
 
 .contacts a {
   color: var(--p-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -39,27 +64,98 @@ body {
 /* Решения для бизнеса */
 .section .heading {
   color: var(--ptimary-white-color);
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .section {
-  background-color: #000;
+  background-color: #2f303a;
 }
 
 .button {
   color: var(--ptimary-white-color);
   background-color: var(--brand-color);
+
+  font-size: 16px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
-/* feature */
+/* Преимущества */
 .list .tittle {
   color: var(--p-text-color);
 }
 
+.benefits .header {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.benefits .tittle {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+/* Чем занимаемся */
+.work .header {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* Наша команда */
+.team .header {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
 .list .tittle {
   color: var(--p-text-color);
 }
 
 .list .name {
   color: var(--h-text-color);
+}
+
+/* Футер */
+.footer {
+  background-color: #2f303a;
+}
+
+.adres {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+}
+
+.adres .place {
+  color: var(--ptimary-white-color);
+}
+
+.adres .link {
+  color: rgba(255, 255, 255, 0.6);
 }
