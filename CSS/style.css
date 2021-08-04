@@ -1,5 +1,65 @@
-.main {
-  font-family: "Oleo Script", cursive;
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+:root {
+  --p-text-color: #757575;
+  --brand-color: #2196f3;
+  --h-text-color: #212121;
+  --ptimary-white-color: #fff;
+}
+
+body {
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+/* site nav */
+.logo:hover,
+.logo:focus {
+  color: var(--brand-color);
+}
+
+.site-nav a {
+  color: var(--h-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--brand-color);
+}
+
+.contacts a {
+  color: var(--p-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--brand-color);
+}
+
+/* Решения для бизнеса */
+.section .heading {
+  color: var(--ptimary-white-color);
+}
+
+.section {
+  background-color: #000;
+}
+
+.button {
+  color: var(--ptimary-white-color);
+  background-color: var(--brand-color);
+}
+
+/* feature */
+.list .tittle {
+  color: var(--p-text-color);
+}
+
+/* Наша команда */
+.list .tittle {
+  color: var(--p-text-color);
+}
+
+.list .name {
+  color: var(--h-text-color);
 }
