@@ -8,7 +8,7 @@
 h2,
 h3 {
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 body {
@@ -24,9 +24,8 @@ body {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo:hover,
@@ -39,8 +38,8 @@ body {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .site-nav a:hover,
@@ -53,8 +52,8 @@ body {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -67,7 +66,7 @@ body {
   font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.2;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -88,7 +87,6 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
 }
 
 /* Преимущества */
@@ -98,37 +96,32 @@ body {
 
 .benefits .header {
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .benefits .tittle {
   font-family: Roboto;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
 }
 /* Чем занимаемся */
 .work .header {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Наша команда */
 .team .header {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .list .tittle {
@@ -147,9 +140,7 @@ body {
 .adres {
   font-family: Roboto;
   font-size: 14px;
-  line-height: 24px;
-
-  letter-spacing: 0.03em;
+  line-height: 1.7;
 }
 
 .adres .place {
@@ -158,4 +149,5 @@ body {
 
 .adres .link {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
